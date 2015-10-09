@@ -1,6 +1,6 @@
-Spectral by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Website Rekayasa Perangkat Lunak SMKN 5 Malang
+smkn5malang.sch.id
+Free for personal and commercial use under the CCA 3.0 license
 
 
 A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
@@ -31,14 +31,8 @@ you can use for pretty much whatever.
 
 (* = not included)
 
-AJ
-n33.co @n33co dribbble.com/n33
-
 
 Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
