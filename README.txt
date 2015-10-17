@@ -37,10 +37,17 @@ Credits:
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-	Other:
+	Framework:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		background-size polyfill (github.com/louisremi)
 		Misc. Sass functions (@HugoGiraudel)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
+	
+	Kelompok :
+		Refine Ariestaningrum	(XII RPL 1)
+		Miftakh Farid Rokhman	(XII RPL 1)
+		Muhammad Yasmin Nur		(XII RPL 1)
+		Muhammad Yuli Affandi	(XII RPL 1)
+		Virman Teguh Fitrianto	(XII RPL 1)
