@@ -2,7 +2,7 @@
     $host = "localhost";
     $pass = "";
     $user = "root";
-    $db = "webjur";
+    $db = "web_jurusan";
 
     mysql_connect($host, $pass, $user) or die ("Enarupes heb, RTO");
     mysql_select_db($db) or die ("Enarupes heb, database ora ono");
