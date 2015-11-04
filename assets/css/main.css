@@ -1,5 +1,5 @@
-@import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+/*@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");*/
 
 /*
 	Spectral by HTML5 UP
@@ -40,8 +40,8 @@
 	}
 
 	table {
-		border-collapse: collapse;
-		border-spacing: 0;
+		/*border-collapse: collapse;
+		border-spacing: 0;*/
 	}
 
 	body {
@@ -1744,6 +1744,7 @@
 	input[type="email"],
 	select {
 		height: 2.75em;
+		width: 25em;
 	}
 
 	textarea {
@@ -2149,7 +2150,7 @@
 		margin: 0 0 2em 0;
 	}
 
-/* Table */
+/* Table 
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -2159,6 +2160,8 @@
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+		background-color: #fff;
+		color: #000;
 	}
 
 		table tbody tr {
@@ -2176,7 +2179,7 @@
 		}
 
 		table th {
-			color: #fff;
+			color: #000;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2737,7 +2740,7 @@
 				border-color: rgba(0, 0, 0, 0.125);
 			}
 
-			.wrapper.style1 table tbody tr {
+			/*.wrapper.style1 table tbody tr {
 				border-color: rgba(0, 0, 0, 0.125);
 			}
 
@@ -2759,7 +2762,7 @@
 
 			.wrapper.style1 table.alt tbody tr td {
 				border-color: rgba(0, 0, 0, 0.125);
-			}
+			}*/
 
 			.wrapper.style1 input[type="submit"],
 			.wrapper.style1 input[type="reset"],
@@ -3057,9 +3060,9 @@
 				border-color: #dfdfdf;
 			}
 
-				.wrapper.style5 table tbody tr:nth-child(2n + 1) {
+				/*.wrapper.style5 table tbody tr:nth-child(2n + 1) {
 					background-color: rgba(0, 0, 0, 0.0375);
-				}
+				}*/
 
 			.wrapper.style5 table th {
 				color: #2E3842;
@@ -3821,6 +3824,26 @@
 	}
 
 /* Create */
-	.btn-lanjut {
-		width: 30%;
-	}
+.btn-lanjut {
+	width: 30%;
+}
+.gae-akun {
+	max-height: 100%;
+	max-width: 500px;
+	float: left;
+}
+.gae-login {
+	margin-right: 10px;
+	float: right;
+}
+.gae-tabel {
+	background-color: #fff;
+	text-decoration: none;
+}
+.form-control {
+	margin-bottom: 10px;
+	width: 100%;
+}
+.tbl-ortu{
+	margin-left: 90px;
+}
