@@ -86,20 +86,6 @@
 						</section>
 					</article>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>Copyright All Reserved &copy; 2015 RPL</li><li><a href="http://www.smkn5malang.sch.id">SMK Negeri 5 Malang</a></li>
-						</ul>
-					</footer>
-
 			</div>
 
 		<!-- Scripts -->
