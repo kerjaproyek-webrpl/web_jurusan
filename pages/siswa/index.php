@@ -1,7 +1,7 @@
 <!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Login</h2>
+							<h2>Login Sebagai Siswa</h2>
 							<!-- <p>Menyajikan data-data dari siswa, guru, dan Industri</p> -->
 						</header>
 						<section class="wrapper style5">
@@ -9,7 +9,7 @@
 								<section class="gae-akun">
 									<h4>Daftar</h4>
 									<p>Dengan membuat akun baru, Anda akan dapat mendapatkan informasi terbaru dari jurusan, menyimpan banyak data berharga, melihat dan mencari data dalam akun Anda dan banyak lagi.</p>
-									<button class="button fit special">Daftar</button>
+									<a href="daftar/index.php" class="button fit special">Daftar</a>
 								</section>
 								<section class="gae-login">
 									<h4>Login</h4>
