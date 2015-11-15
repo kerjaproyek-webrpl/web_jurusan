@@ -4,7 +4,7 @@
     $user = "root";
     $db = "web_jurusan";
 
-    mysql_connect($host, $pass, $user) or die ("Enarupes heb, RTO");
-    mysql_select_db($db) or die ("Enarupes heb, database ora ono");
+    mysql_connect($host, $pass, $user) or die ("Koneksi Gagal");
+    mysql_select_db($db) or die ("Database tidak ada");
 
 ?>
