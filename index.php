@@ -25,7 +25,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Website RPL</a></h1>
+						<h1><a href="#">Website RPL</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">

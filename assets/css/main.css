@@ -2222,7 +2222,7 @@
 
 /* Button */
 
-	input[type="submit"],
+	/*input[type="submit"],*/
 	input[type="reset"],
 	input[type="button"],
 	button,
@@ -2235,7 +2235,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		/*background-color: transparent;*/
 		border-radius: 3px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #fff;
@@ -3086,7 +3086,7 @@
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				/*color: #2E3842;*/
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3094,7 +3094,7 @@
 				.wrapper.style5 input[type="button"]:hover,
 				.wrapper.style5 button:hover,
 				.wrapper.style5 .button:hover {
-					background-color: rgba(0, 0, 0, 0.0375);
+					background-color: #494F55;
 				}
 
 				.wrapper.style5 input[type="submit"]:active,

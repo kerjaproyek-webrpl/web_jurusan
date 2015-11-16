@@ -1,4 +1,6 @@
-
+<?php 
+	// include ("index.php");
+ ?>
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
@@ -30,7 +32,7 @@
 								<h2>Siswa</h2>
 								<p>Fitur untuk siswa yang berguna sebagai media input data pribadi siswa, orang tua / wali, khususnya siswa jurusan Rekayasa Perangkat Lunak</p>
 								<div class="btn-lanjut">
-									<a href="pages/siswa/" class="button fit">Learn More</a>
+									<a href="?page=siswa" class="button fit">Learn More</a>
 								</div>
 							</div>
 						</section>
@@ -62,6 +64,7 @@
 							</div>
 						</section>
 					</section>
+				
 
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">

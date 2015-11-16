@@ -45,6 +45,7 @@
 									<p>Dengan membuat akun baru, Anda akan dapat mendapatkan informasi terbaru dari jurusan, menyimpan banyak data berharga, melihat dan mencari data dalam akun Anda dan banyak lagi.</p>
 								</section>
 								<div>
+									<!-- <form action="ct_daftar/ct_daftar.php" method="post"> -->
 									<form action="" method="post">
 										<table class="tbl-daftar">
 											<tr>
@@ -69,13 +70,17 @@
 												<td><input type="password" id="passc" name="konf-pass" class="form-control" placeholder=" " onkeyup="validate()" autocomplete="off"> <span id="konf" style="color:red;"></span></td>
 											</tr>
 										</table>
-										<p>Dengan ini data yang saya isikan adalah benar</p>
-										<input type="submit" class="waves-effect waves-light" name="submit">
+										<input type="submit" class="waves-effect waves-light btn-special" value="Daftar" name="submit">
 									</form>
+									<?php
+										if (isset($_POST["submit"])) {
+											include "ct_daftar/ct_daftar.php";
+										}
+									 ?>
 									<script>
 										function validate(){
 										if(document.getElementById("passc").value!=document.getElementById("pass").value){
-										document.getElementById("konf").innerHTML="Tidak Sama <i class='fa fa-hand-o-up'></i>";
+										document.getElementById("konf").innerHTML="Tidak Sama <i class='fa fa-circle'></i>";
 										}
 										else{
 										document.getElementById("konf").innerHTML="";

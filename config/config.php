@@ -2,9 +2,11 @@
     $host = "localhost";
     $pass = "";
     $user = "root";
-    $db = "web_jurusan";
+    $db = "db_web_jurusan";
 
-    mysql_connect($host, $pass, $user) or die ("Koneksi Gagal");
-    mysql_select_db($db) or die ("Database tidak ada");
-
+    $conn = mysql_connect($host, $user, $pass);
+    $select_db = mysql_select_db($db);
+    if (!$conn) {
+    	die("Koneksi Gagal : ".mysql_connect_error());
+    }
 ?>

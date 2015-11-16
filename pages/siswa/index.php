@@ -9,7 +9,7 @@
 								<section class="gae-akun">
 									<h4>Daftar</h4>
 									<p>Dengan membuat akun baru, Anda akan dapat mendapatkan informasi terbaru dari jurusan, menyimpan banyak data berharga, melihat dan mencari data dalam akun Anda dan banyak lagi.</p>
-									<a href="daftar/index.php" class="button fit special">Daftar</a>
+									<a href="?page=daftar" class="button fit special">Daftar</a>
 								</section>
 								<section class="gae-login">
 									<h4>Login</h4>
