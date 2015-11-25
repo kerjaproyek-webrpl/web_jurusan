@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+ ?>
 <!DOCTYPE HTML>
 <!--
 
@@ -51,21 +54,18 @@
 				extract($_GET);
 				if (empty($_GET['page'])) {
 					include "home.php";
-				}
-				elseif ($_GET['page']=='home') {
+				} elseif ($_GET['page']=='home') {
 					include "home.php";
-				}
-				else if($_GET['page']=='about'){
+				} else if($_GET['page']=='about') {
 					include "pages/about/index.php";
-				}
-				else if($_GET['page']=='siswa'){
+				} else if($_GET['page']=='siswa') {
 					include "pages/siswa/index.php";
-				}
-				elseif ($_GET['page']=='contact') {
+				} elseif ($_GET['page']=='contact') {
 					include "pages/contact/index.php";
-				}
-				elseif ($_GET['page']=='daftar') {
+				} elseif ($_GET['page']=='daftar') {
 					include "pages/daftar/index.php";
+				} elseif ($_GET['page'] == 'admin') {
+					include "pages/admin/index.php";
 				}
 				?>
 

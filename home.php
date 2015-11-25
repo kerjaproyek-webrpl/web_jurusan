@@ -59,7 +59,7 @@
 								<h2>Administrator</h2>
 								<p>Fitur untuk user yang disediakan untuk mengolah suatu data, yang selanjutnya akan diproses / dipergunakan oleh para user</p>
 								<div class="btn-lanjut">
-									<a href="#" class="button fit">Learn More</a>
+									<a href="?page=admin" class="button fit">Learn More</a>
 								</div>
 							</div>
 						</section>

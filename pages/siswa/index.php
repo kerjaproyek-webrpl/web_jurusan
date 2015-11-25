@@ -14,7 +14,7 @@
 								<section class="gae-login">
 									<h4>Login</h4>
 									<p>Atau login dahulu untuk masuk</p>
-									<form action="ct-login/login.php" method="post">
+									<form method="post">
 										<div>
 											<label for="">NISN</label>
 											<input type="text" name="nisn" class="form-control" placeholder="Inputkan NISN" autocomplete="off">
@@ -23,8 +23,14 @@
 											<label for="">Password</label>
 											<input type="password" class="form-control" name="password" placeholder="Password Anda">
 										</div>
+										<button style="margin-top:50px;" class="button fit special" name="submit" id="submit">Login</button>
 									</form>
-									<button class="button fit special">Login</button>
+
+									<?php 
+										if (isset($_POST["submit"])) {
+											include "ct-login/login.php";
+										}
+									 ?>
 								</section>
 							</div>
 						</section>

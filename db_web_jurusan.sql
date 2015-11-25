@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 16, 2015 at 05:32 AM
+-- Generation Time: Nov 20, 2015 at 11:41 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -35,6 +35,35 @@ CREATE TABLE IF NOT EXISTS `admin` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `foto_guru`
+--
+
+CREATE TABLE IF NOT EXISTS `foto_guru` (
+  `id_guru` int(10) NOT NULL,
+  `url_foto` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `foto_siswa`
+--
+
+CREATE TABLE IF NOT EXISTS `foto_siswa` (
+  `nis` int(10) NOT NULL,
+  `url` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `foto_siswa`
+--
+
+INSERT INTO `foto_siswa` (`nis`, `url`) VALUES
+(5555, '../../images/logo.png');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `guru`
 --
 
@@ -42,9 +71,7 @@ CREATE TABLE IF NOT EXISTS `guru` (
   `nip` int(25) NOT NULL,
   `namagelar` varchar(100) DEFAULT NULL,
   `id_jurusan` int(15) DEFAULT NULL,
-  `alamat` text,
-  `url_foto` varchar(100) DEFAULT NULL,
-  `qr` varchar(100) DEFAULT NULL
+  `alamat` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -84,6 +111,15 @@ CREATE TABLE IF NOT EXISTS `login` (
   `level` int(5) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`nis`, `username`, `pass`, `level`) VALUES
+('4444', 'user', 'muhammad', 1),
+('5555', 'user', '123', 1),
+('7004', 'user', '1234', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -95,6 +131,28 @@ CREATE TABLE IF NOT EXISTS `prestasi` (
   `tingkat` varchar(50) DEFAULT NULL,
   `juara` varchar(50) DEFAULT NULL,
   `lomba` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `qr_guru`
+--
+
+CREATE TABLE IF NOT EXISTS `qr_guru` (
+  `id_guru` int(10) NOT NULL,
+  `url_qr` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `qr_siswa`
+--
+
+CREATE TABLE IF NOT EXISTS `qr_siswa` (
+  `id_siswa` int(10) NOT NULL,
+  `url_qr` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -115,17 +173,17 @@ CREATE TABLE IF NOT EXISTS `siswa` (
   `id_jurusan` varchar(50) DEFAULT NULL,
   `ttl` date DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
-  `alamat` text,
-  `url_foto` varchar(255) DEFAULT NULL,
-  `qr` varchar(255) DEFAULT NULL
+  `alamat` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `siswa`
 --
 
-INSERT INTO `siswa` (`nis`, `nama`, `password`, `id_kelas`, `id_prestasi`, `id_pendidikan`, `id_keluarga`, `id_kesehatan`, `id_jurusan`, `ttl`, `email`, `alamat`, `url_foto`, `qr`) VALUES
-('7004', 'Muhammad Yasmin', 'asu', '', '', '', '', '', '', '0000-00-00', 'asu@gmail.com', '', '', '');
+INSERT INTO `siswa` (`nis`, `nama`, `password`, `id_kelas`, `id_prestasi`, `id_pendidikan`, `id_keluarga`, `id_kesehatan`, `id_jurusan`, `ttl`, `email`, `alamat`) VALUES
+('4444', 'Yasmin', 'muhammad', '', '', '', '', '', '', '0000-00-00', 'yas@yas.com', ''),
+('5555', 'yas', '123', '', '', '', '', '', '', '0000-00-00', 'yas@yas.com', ''),
+('7004', 'Yasmin', '1234', '', '', '', '', '', '', '0000-00-00', 'yasmin@mail.com', '');
 
 --
 -- Indexes for dumped tables
@@ -136,6 +194,18 @@ INSERT INTO `siswa` (`nis`, `nama`, `password`, `id_kelas`, `id_prestasi`, `id_p
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`username`,`pass`);
+
+--
+-- Indexes for table `foto_guru`
+--
+ALTER TABLE `foto_guru`
+  ADD PRIMARY KEY (`id_guru`);
+
+--
+-- Indexes for table `foto_siswa`
+--
+ALTER TABLE `foto_siswa`
+  ADD PRIMARY KEY (`nis`);
 
 --
 -- Indexes for table `guru`
@@ -166,6 +236,18 @@ ALTER TABLE `login`
 --
 ALTER TABLE `prestasi`
   ADD PRIMARY KEY (`id_prestasi`);
+
+--
+-- Indexes for table `qr_guru`
+--
+ALTER TABLE `qr_guru`
+  ADD PRIMARY KEY (`id_guru`);
+
+--
+-- Indexes for table `qr_siswa`
+--
+ALTER TABLE `qr_siswa`
+  ADD PRIMARY KEY (`id_siswa`);
 
 --
 -- Indexes for table `siswa`

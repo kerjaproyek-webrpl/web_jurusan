@@ -80,7 +80,7 @@
 									<script>
 										function validate(){
 										if(document.getElementById("passc").value!=document.getElementById("pass").value){
-										document.getElementById("konf").innerHTML="Tidak Sama <i class='fa fa-circle'></i>";
+										document.getElementById("konf").innerHTML="Tidak Sama <i class='fa fa-check'></i>";
 										}
 										else{
 										document.getElementById("konf").innerHTML="";
@@ -92,5 +92,6 @@
 						</section>
 					</article>
 			</div>
+			<script src="../../assets/js/bootstrap.js"></script>
 </body>
 </html>
