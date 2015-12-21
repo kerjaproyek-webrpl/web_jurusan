@@ -1,0 +1,54 @@
+Assalamu'alaikum, Wr. Wb
+Tugas liburan :v
+
+
+rek, sakdurunge sepurane sing akeh, aku mbagi tugas maneh,
+langsung ae :v
+1. Ine 
+	Awakmu desain index.php sing awal dewe, iku desainen sing iso nyangkup galeri, dsb, sebagian wes tak desain, tapilek gak cocok desainen maneh gak popo 
+	(lek gak jelas takono), mangap, iki desain e bedo maneh, :v la ancen apik e :D
+
+2. Virman 
+	good job man, awakmu kebagian admin.php (pages/admin.php), khusus ndek sidebar kategori form bagian siswa iku nyangkup data"ne siswa kabeh iku wes ono 1 data
+	sing tak gaeno contoh, trus teko kono, admin e iso RUD (Read Update Delete), berarti kan tiap baris jeneng, ono btn minimal 3 gae proses RUD iku mang,
+	iku yo ono contoh sing READ tok tapi, iku ngetokno modal sing isine data" teko siswa sing bersangkutan iku mang, trus khusus READ, iku desainen maneh ae :v
+	Acak"an iku aku gae ne :v (lek kurang jelas, takon secara 4 mata :v)
+
+3. MY
+	Yul, awakmu ngewangi virman :v
+	ambek optimasi iku sidebar e yokpo enak e ono sing di dadekno 1 karo bagian siswa pas di Preview opo ora yul :v
+	ngkok lek wes ngeroso wes sip, dadekno 1 karo siswa e ngkok tak rewangi
+
+4. Farid
+	Awakmu desain siswa maneh :v, sing iki wes sip, wingi ono beberapa file sing gak kanggo, dadi tak gosok i, :v
+	trus apdet foto wes mari, yo wes melbu db, yo wes mindah nang file direktori (images/siswa/), iku yo lek wes ono file jenenge podo, iku mek rename tok, 
+	iki aku yo golek yokpo cara ne cek masio wes ono file jeneng e podo, iku nge-hapus, cek gak kakean nggen :v dadi khusus foto aku ae sing nggarap
+	trus iku form e madakno karo admin ae dadi ora mek data" ortu, siswa karo prestassi tok, ono akeh termasuk golongan darah, status anak, tempat tinggal, dll
+
+Wes cukup sekian
+Oh sek, ono beberapa bug :v
+1. terutama pas login / register lek load.gif e muter tok, tapi halaman e gak ngeload iku Ctrl+R en, :v trus lek ndek bagian admin / siswa e bug e iku Grey screen :v
+   cara ndelok e karo Inspect Element, :v trus, masio durung login siswa e iso ngakses siswa.php :v, wes kari 3 iku tok bug e :v
+   ngkok lek tugas mu wes mari kabeh, ambek benakno gak popo :v
+
+ono maneh, ndek admin iku foto e sik statis, :v
+gaekno form sing iso upload foto yul yo, nyonto siswa ae :v
+
+login admin gae user + pass iki, 
++----------+-------------+
++ Username +   Password  +
++----------+-------------+
++   ine	   +   adminine	 +
++  farid   +  adminfarid +
++  virman  + adminvirman +
++   yuli   +  adminyuli  +
++----------+-------------+
+trus siswa e
+NIS : 7004/754.063
+pass : muhammad (gaiso di delok gae enkripsi :v)
+
+Sip, mantap, RPL Joss
+** Edit Database mode On 
+** lek pas preian, gakpopo lek kate nang omah opo nang omah e sopo ngono, tapi sms o sik (tgl 23 - 27 wes pasti gaiso)
+** takok pas onlen pesbuk yo gakpopo, monggo
+** target e preian iki mari, melbu kari finishing tok :v
