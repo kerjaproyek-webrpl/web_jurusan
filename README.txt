@@ -1,53 +1,39 @@
 Website Rekayasa Perangkat Lunak SMKN 5 Malang
 smkn5malang.sch.id
-Free for personal and commercial use under the CCA 3.0 license
 
+Merupakan wadah untuk berinteraksi antara siswa, guru, dan admin pada sekolah, khususnya jurusan RPL
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+Thanks To : 
+ - Allah SWT
+ - Bapak Ibu Guru
+ - KA Lab Jurusan
+ - Kedua Orang Tua
+ - Github.com
+ - Codepen.io
+ - Stackoverflow.com
+ - Anggota Kelompok
+ - Najmul Faiz (https://www.facebook.com/najmul.faiz)
+ - Fandi Arfabuma (https://www.facebook.com/fandi.arfabois)
+ - Seluruh Siswa SMK 5 Malang, khususnya Jurusan RPL
 
-- It's built on Skel 3*, a leaner, more modular rewrite of my responsive framework.
+Icons:
+ - Font Awesome (fortawesome.github.com/Font-Awesome)
+ - GlyphIcon
 
-  (* = still in development as of this writing)
+Frameworks:	
+ - Bootstrap v3.3.5 (getbootstrap.com)
+ - DataTables
+ - jQuery
+ - SlimScroll.js
+ - Animate.css
+ - Owl Carousel
+ - Morris.js
+ - Pace.js
+ - jQuery Gritter
 
-- It uses flexbox*, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
-
-  (* = not supported on IE8/9, but non-flexbox fallbacks are included)
-
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
-
-  (* = still entirely optional if you prefer vanilla CSS :)
-
-- A ton of other stuff.
-
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-
-Credits:
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Framework:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-	
-	Kelompok :
-		Refine Ariestaningrum	(XII RPL 1)
-		Miftakh Farid Rokhman	(XII RPL 1)
-		Muhammad Yasmin Nur		(XII RPL 1)
-		Muhammad Yuli Affandi	(XII RPL 1)
-		Virman Teguh Fitrianto	(XII RPL 1)
+Kelompok :
+ - Refine Ariestaningrum	(XII RPL 1)
+ - Miftakh Farid Rokhman	(XII RPL 1)
+ - Muhammad Yasmin Nur		(XII RPL 1)
+ - Muhammad Yuli Affandi	(XII RPL 1)
+ - Virman Teguh Fitrianto	(XII RPL 1)
