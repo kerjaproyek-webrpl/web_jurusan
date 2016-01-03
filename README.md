@@ -1,6 +1,6 @@
 ##Website Rekayasa Perangkat Lunak SMKN 5 Malang
 
-smkn5malang.sch.id
+http://www.smkn5malang.sch.id
 
 Merupakan wadah untuk berinteraksi antara siswa, guru, dan admin pada sekolah, khususnya jurusan RPL
 
